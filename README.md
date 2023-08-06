@@ -10,3 +10,5 @@ Im starting off with boilerplate code from  https://hackr.io/blog/python-project
 ![image](https://github.com/chrislpoy/Python-Rock-Paper-Scissors/assets/77645939/9d3b1651-aec9-4009-a1be-cecb4a4555da)
 Bug : dislplays error message that is not persistent when user types an invalid option. eg- when typing H instead of R/P/S shows the error message only for a brief moment.
 
+Error/Bug is not present when using PyCharm compiler
+
