@@ -6,3 +6,6 @@ Sunday August 6th 2023
 the initial goal is to make a simple rock paper scissors game in python with the prospect of adding (refining) how it looks and plays along with any extra added features.
 
 Im starting off with boilerplate code from  https://hackr.io/blog/python-projects
+
+![image](https://github.com/chrislpoy/Python-Rock-Paper-Scissors/assets/77645939/9d3b1651-aec9-4009-a1be-cecb4a4555da)
+
