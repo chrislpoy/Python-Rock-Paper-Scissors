@@ -20,7 +20,7 @@ class MAIN:  # main function for the gui
         gui_width = 760
         gui_height = 490
         self.game.geometry(f"{gui_width}x{gui_height}")
-        self.game.minsize(600, 400)
+        self.game.minsize(760, 490) # set min size that the menu have to be
 
 
 if __name__ == '__main__':
