@@ -1,11 +1,21 @@
-'''
+"""
 Rock Paper Scissors
 -------------------------------------------------------------
-'''
+"""
 
-import random
 import os
+import random
 import re
+import tkinter as tk
+
+# menu
+game = tk.Tk()
+game.title('')  # add game name here
+                # Dimensions for game add later
+# gui_width =
+# gui_height =
+# game.geometry(f"{gui_width}x{gui_height}")
+# game.minsize(600, 400)
 
 item = {'R': '✊', 'S': '✌️', 'P': '✋'}
 
