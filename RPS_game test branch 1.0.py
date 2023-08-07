@@ -16,7 +16,7 @@ class MAIN:  # main function for the gui
         :param game_gui:
         """
         self.game = game_gui
-        self.game.title('Rock, Paper, Scissors - Shoot!')  # Set the game title
+        self.game.title('Rock, Paper, Scissor - Shoot!')  # Set the game title
         gui_width = 760
         gui_height = 490
         self.game.geometry(f"{gui_width}x{gui_height}")
