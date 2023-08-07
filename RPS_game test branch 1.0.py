@@ -2,81 +2,29 @@
 Rock Paper Scissors
 -------------------------------------------------------------
 """
-
-import os
-import random
-import re
+# imports for menu
 import tkinter as tk
+from functions import play_rps
+
+
+# imports
 
 # menu
-game = tk.Tk()
-game.title('')  # add game name here
-                # Dimensions for game add later
-# gui_width =
-# gui_height =
-# game.geometry(f"{gui_width}x{gui_height}")
-# game.minsize(600, 400)
-
-item = {'R': '✊', 'S': '✌️', 'P': '✋'}
-
-
-def check_play_status():
-    valid_responses = ['yes', 'no']
-    while True:
-        try:
-            response = input('Do you wish to play again? (Yes or No): ')
-            if response.lower() not in valid_responses:
-                raise ValueError('Yes or No only')
-
-            if response.lower() == 'yes':
-                return True
-            else:
-                os.system('cls' if os.name == 'nt' else 'clear')
-                print('Thanks for playing!')
-                exit()
-
-        except ValueError as err:
-            print(err)
-
-
-def play_rps():
-    play = True
-    while play:
-        os.system('cls' if os.name == 'nt' else 'clear')
-        print('')
-        print('Rock, Paper, Scissors - Shoot!')
-
-        user_choice = input('Choose your weapon'
-                            ' [R]ock], [P]aper, or [S]cissors: ')
-
-        if not re.match("[SsRrPp]", user_choice):
-            print('Please choose a letter:')
-            print('[R]ock, [P]aper, or [S]cissors')
-            continue
-
-        print(f'You Chose: {item[user_choice.upper()]}')
-
-        choices = ['R', 'P', 'S']
-        opp_choice = random.choice(choices)
-
-        print(f'Computer chose: {item[opp_choice.upper()]}')
-
-        if opp_choice == user_choice.upper():
-            print('Tie!')
-            play = check_play_status()
-        elif opp_choice == 'R' and user_choice.upper() == 'S':
-            print('Rock beats scissors, I win!')
-            play = check_play_status()
-        elif opp_choice == 'S' and user_choice.upper() == 'P':
-            print('Scissors beats paper! I win!')
-            play = check_play_status()
-        elif opp_choice == 'P' and user_choice.upper() == 'R':
-            print('Paper beats rock, I win!')
-            play = check_play_status()
-        else:
-            print('You win!\n')
-            play = check_play_status()
+class MAIN:  # main function for the gui
+    def __init__(self, game_gui):
+        """
+        :param game_gui:
+        """
+        self.game = game_gui
+        self.game.title('Rock, Paper, Scissors - Shoot!')  # Set the game title
+        gui_width = 760
+        gui_height = 490
+        self.game.geometry(f"{gui_width}x{gui_height}")
+        self.game.minsize(600, 400)
 
 
 if __name__ == '__main__':
-    play_rps()
+    game = tk.Tk()
+    app = MAIN(game)
+    game.mainloop()
+    # play_rps() commented out game before it still works like this
