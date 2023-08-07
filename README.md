@@ -13,6 +13,7 @@ Bug : dislplays error message that is not persistent when user types an invalid 
 Error/Bug is not present when using PyCharm compiler
 
 I want to build an interactive GUI for the game, where the user clicks instead of types.
+
 GOAL: simple and easy to use.
 ![image](https://github.com/chrislpoy/Python-Rock-Paper-Scissors/assets/77645939/d2833198-04fe-4ef6-9b0e-ac4253186ab6)
 ![image](https://github.com/chrislpoy/Python-Rock-Paper-Scissors/assets/77645939/c07a8bff-844b-46a4-92c5-8fa1e4e787a6)
