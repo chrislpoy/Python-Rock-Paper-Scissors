@@ -17,10 +17,10 @@ class MAIN:  # main function for the gui
         """
         self.game = game_gui
         self.game.title('Rock, Paper, Scissor - Shoot!')  # Set the game title
-        gui_width = 760
-        gui_height = 490
-        self.game.geometry(f"{gui_width}x{gui_height}")
-        self.game.minsize(760, 490) # set min size that the menu have to be
+        width = 760
+        height = 490
+        self.game.geometry(f"{width}x{height}")
+        self.game.minsize(760, 490)  # set min size that the menu have to be
 
 
 if __name__ == '__main__':
