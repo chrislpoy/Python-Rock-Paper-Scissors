@@ -21,6 +21,7 @@ class MAIN:  # main function for the gui
         height = 490
         self.game.geometry(f"{width}x{height}")
         self.game.minsize(760, 490)  # set min size that the menu have to be
+        self.game.config(bg='black')
 
 
 if __name__ == '__main__':

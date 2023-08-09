@@ -2,7 +2,9 @@ import os
 import random
 import re
 
-item = {'R': '✊', 'S': '✌️', 'P': '✋'}  # global list varibles no longer need icons
+# item = {'R': '✊', 'S': '✌️', 'P': '✋'}  # global list varibles no longer need icons
+
+item = {'r', 's', 'p'}
 
 
 def check_play_status():
