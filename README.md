@@ -12,3 +12,12 @@ Bug : dislplays error message that is not persistent when user types an invalid 
 
 Error/Bug is not present when using PyCharm compiler
 
+-------------------------------------------------------------------------------------------------------------------------
+
+Researching GUI creation with Tkinter Designer and Figma
+
+https://github.com/ParthJadhav/Tkinter-Designer/blob/master/docs/instructions.md#using-1
+
+![image](https://github.com/chrislpoy/Python-Rock-Paper-Scissors/assets/77645939/40f3addb-9dfa-4f75-84cf-afbad3d9561a)
+
+
