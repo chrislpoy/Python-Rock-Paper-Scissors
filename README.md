@@ -21,3 +21,6 @@ https://github.com/ParthJadhav/Tkinter-Designer/blob/master/docs/instructions.md
 ![image](https://github.com/chrislpoy/Python-Rock-Paper-Scissors/assets/77645939/40f3addb-9dfa-4f75-84cf-afbad3d9561a)
 
 
+Trying to impliment Tkinter design has been filled with challenges with regards with outdated commands and lack of new documentaion. Syntax challenges with Figma tokens and url. As such, Tkinter designer will be forgone for now. will look into alternative GUI 
+
+
